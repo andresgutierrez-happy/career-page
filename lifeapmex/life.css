@@ -1,0 +1,356 @@
+
+.life {
+    display: flex;
+ height: 300px;
+    border-radius: 8px;
+    color: white;
+}
+
+.life-banner h1{
+text-align: center;
+ margin-bottom: 30px;
+ color: #002539;
+ font-size: 38px;
+ font-weight: 700;
+}
+
+.life-banner h2{
+
+     margin-bottom: 15px;
+
+     font-size: 40px;
+     font-weight: 600;
+    }
+
+.life-text {
+    width: 50%;
+    padding: 3rem 4rem;
+}
+.life-img {
+    width: 50%;
+
+}
+
+
+.life-text h2 {
+
+ color: #002539;
+ font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+
+}
+
+.life-text h2 > span {
+    font-size: 32px;
+    
+    font-weight: 700;
+   
+   }
+
+   .life-text p {
+    margin-bottom: 60px;
+  color:  #666666;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+   }
+
+
+   .life-img img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+
+.ellipse {
+    width: 300px;
+    height: 300px;
+    background: rgba(228, 228, 228, 0.44);
+    border-radius: 50%;
+    margin: -2rem -0.5rem;
+    position: relative;
+    cursor: pointer;
+    transition: ease-in .2s;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.ellipse-text {
+margin-top: 30%;
+    width: 70%;
+
+    text-align: center;
+}
+
+.ellipse-text h3 {
+    color: #2B495A;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.ellipse-text p {
+    font-size: 20px;
+    color: black;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+.ellipse-active {
+    scale: 1.25;
+    background: #2B495A;
+    color: white;
+    z-index: 99;
+    box-shadow: 0px 1px 31px 0px #00000052;
+
+}
+
+.ellipse-active h3, .ellipse-active p {
+    color: white;
+}
+
+.life-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 100px;
+}
+.life-grid-mob {
+    display: none;
+}
+.life-row-1 {
+    display: flex;
+    justify-content: center;
+}
+.life-row-2 {
+    display: flex;
+    justify-content: center;
+}
+.life-row-3 {
+    display: flex;
+    justify-content: center;
+}
+.life-row-4 {
+    display: flex;
+    justify-content: center;
+}
+.life-row-5 {
+    display: flex;
+    justify-content: center;
+}
+
+.life-grid-mob {
+    
+}
+
+.benefits-section {
+    background-color: #F5F5F5;
+    padding: 3rem 0;
+}
+
+.benefits-section h2 {
+    text-align: center;
+    color: #002539;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.benefits-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    width: 80%;
+    margin: auto;
+}
+
+.benefits-col ul {
+    list-style: none;
+}
+
+.benefit {
+    margin: 2rem;
+    display: flex;
+   font-size: 18px;
+   font-weight: 600;
+   color: #666666;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.benefit svg {
+    min-width: 50px;
+}
+
+
+.card {
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 8px;
+display: flex;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.card-text {
+    width: 50%;
+    padding: 2.5rem;
+}
+.card-text span {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 33px;
+color: #666666;
+}
+
+.card-text h3 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+color: #2B495A;
+}
+
+.card-text p {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+color: #666666;
+}
+
+.card-text a {
+    text-align: end;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+
+
+letter-spacing: 0.46px;
+
+color: #2B495A;
+}
+
+.card-img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.card-img img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+@media screen and (max-width:800px) {
+.life-grid {
+    display: none;
+}
+
+.life-grid-mob {
+    display: grid;
+}
+.life {
+    flex-wrap: wrap;
+    height: 100%;
+}
+.life-text {
+    width: 100%;
+    padding: .5rem;
+    text-align: center;
+}
+.life-text p {
+    margin-bottom: 30px;
+}
+.life a {
+    margin: auto;
+}
+.life-img {
+    width: 100%;
+}
+.life-img img {
+    max-width: 100%;
+}
+
+.card-text {
+    width: 100%;
+}
+.card {
+    flex-wrap: wrap;
+    height: 100%;
+}
+.card-img img {
+    object-fit: contain;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 16px ;
+    padding: 0.5rem;
+}
+
+.benefits-container {
+    flex-wrap: wrap;
+    gap: 0;
+  width: 95%;
+}
+.benefit {
+    margin: 1rem;
+}
+
+.ellipse {
+    width: 190px;
+    height: 190px;
+   
+    margin: -1rem -0.5rem;
+   
+}
+.ellipse-text h3 {
+
+    font-size: 18px;
+}
+.ellipse-text {
+    width: 80%;
+}
+.ellipse-text p{ 
+    font-size: 14px;
+
+    line-height: 18px;
+}
+}

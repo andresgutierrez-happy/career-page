@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1 */
+.title-bigcity {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    color: #666666;    
+    margin-bottom: 30px;
+}
+.okcmoa {
+    display: flex;
+    background-color: #2B495A;
+    border-radius: 8px;
+    color: white;
+}
+
+/* .okcmoa-banner h1{
+    text-align: center;
+     color: #002539;
+     font-size: 38px;
+     font-weight: 700;
+    } */
+
+.okcmoa-banner h2{
+
+     margin-bottom: 15px;
+     font-size: 40px;
+     font-weight: 600;
+    }
+
+.okcmoa-text {
+    width: 50%;
+    padding: 3rem 4rem;
+}
+.okcmoa-img {
+    width: 50%;
+
+}
+
+.okcmoa-text h2 {
+ font-size: 30px;
+margin-bottom: 15px;
+ font-weight: 400;
+ color: white;
+
+}
+
+.okcmoa-text h2 > span {
+    font-size: 32px;
+    
+    font-weight: 700;
+   
+   }
+
+   .okcmoa-text p {
+    margin-bottom: 60px;
+    color: white;
+   }
+
+
+   .okcmoa-img img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+}
+
+/* 1 */
+
+/* 2 */
+
+.aboutokcmoa-banner {
+    background-color: #F5F5F5;
+    padding-top: 91px;
+}
+
+.aboutokcmoa {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aboutokcmoa-text {
+    width: 60%;
+    padding: 4rem;
+}
+
+.aboutokcmoa-banner h2 {
+    text-align: center;
+    color: #002539;
+    font-size: 32px;
+    font-weight: 700;
+}
+.title-column-left {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #666666;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+.description-column-left {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666666;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 40px;
+}
+.aboutokcmoa-link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: 0.46px;
+text-transform: uppercase;
+color: black;
+}
+
+.aboutokcmoa-img {
+    width: 40%;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.aboutokcmoa-img img {
+    width: 311px;
+    height: 340px;
+}
+/* 2 */
+
+
+/* 3 */
+.box-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.buttons {
+    display: flex;
+}
+.buttons .next,
+.buttons .prev {
+    margin:0 9px;
+    cursor: pointer;
+}
+.container-gallery img{
+    width: 100%;
+}
+.img-gallery {
+    width: 100%;
+}
+.box-img-gallery {
+    max-width: 1120px;
+    max-height: 422px;
+}
+.inactive {
+    display: none;
+}
+.active {
+    display: block;
+}
+
+/* 3 */
+
+/* .box-1 {
+    width: 296px;
+}
+.box-2 {
+    width: 240px;;
+}
+.box-2 img {
+    width: 100%;
+} */
+
+@media (max-width:1100px) {
+    
+}
+
+@media screen and (max-width:800px) {
+
+     .okcmoa {
+        flex-wrap: wrap;
+    }
+   .okcmoa-text {
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+    }
+    .okcmoa-img {
+        width: 100%;
+    }
+   .aboutokcmoa {
+        flex-wrap: wrap;
+    }
+    .aboutokcmoa-img {
+        width: 100%;
+        padding: 2rem;
+    } 
+    .aboutokcmoa-text {
+        width: 100%;
+        padding: 2rem;
+    }
+      .title-column-left {
+        font-size: 24px;
+    } 
+    .box-1 {
+        width: 100%;
+    }
+    .box-2 {
+        width:100%;
+    }
+}
+
+
+

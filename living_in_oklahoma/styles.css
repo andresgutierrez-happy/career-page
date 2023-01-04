@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+}
+
+/* 1 */
+.title-living_ok {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    color: #666666;    
+    margin-bottom: 30px;
+}
+.living {
+    display: flex;
+    background-color: #2B495A;
+    border-radius: 8px;
+    color: white;
+}
+
+/* .living-banner h1{
+    text-align: center;
+     color: #002539;
+     font-size: 38px;
+     font-weight: 700;
+    } */
+
+.living-banner h2{
+
+     margin-bottom: 15px;
+     font-size: 40px;
+     font-weight: 600;
+    }
+
+.living-text {
+    width: 50%;
+    padding: 3rem 4rem;
+}
+.living-img {
+    width: 50%;
+
+}
+
+.living-text h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40.8139px;
+    line-height: 41px;
+    color: #FFFFFF;
+
+}
+
+.living-text h2 > span {
+    font-size: 32px;
+    
+    font-weight: 700;
+   
+   }
+
+   .living-text p {
+    margin-bottom: 60px;
+    color: white;
+   }
+
+
+   .living-img img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+}
+
+
+
+.living-text .h2-okc {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40.8139px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.city-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.city-data_title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #002539;
+}
+.city-data_description {
+    max-width: 682px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #666666;
+    margin-top: 21px;
+    margin-bottom: 41px;
+}
+.box-row_data {
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-col_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-col_data img {
+    width: 120px;
+    margin-bottom: 48px;
+}
+.box-col_data h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    color: #282828;
+}
+.box-col_data p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #282828;
+}
+
+
+
+.comfort-banner {
+    width:100%;
+    background-color: #F5F5F5;
+    padding-top: 65px;
+    padding-bottom: 90px;
+    padding:4rem 1rem;
+}
+.comfort-banner h2 {
+    color: #002539;
+    font-size: 32px;
+    font-weight: 700;
+}
+.comfort-banner p {
+    max-width: 779px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+.box-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-col {
+    width: 340px;
+    height: 288px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 8px;
+    padding: 45px 35px;
+}
+.box-col h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #2B495A;
+}
+.box-col p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;    
+    color: #666666;
+}
+
+
+@media screen and (max-width:800px) {
+
+    .living {
+        flex-wrap: wrap;
+    }
+    .living-text {
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+    }
+    .living-img {
+        width: 100%;
+    }
+    .aboutliving {
+        flex-wrap: wrap;
+    }
+    .aboutliving-img {
+        width: 100%;
+        padding: 2rem;
+    } 
+    .aboutliving-text {
+        width: 100%;
+        padding: 2rem;
+    }
+    .title-column-left {
+        font-size: 24px;
+    }
+    .box-row_data {
+        flex-direction: column;
+        width: 100%;
+    }
+    .comfort-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 15px;
+    }
+    .comfort-banner h2 {
+        text-align: center;
+    }
+    .comfort-banner p {
+        text-align: center;
+    }
+    .box-row {
+        flex-direction: column;
+    }
+    .box-col_data {
+        margin-bottom: 36px;
+    }
+    .box-col {
+        margin-bottom: 36px;
+    }
+    .box-1 {
+        width: 100%;
+    }
+    .box-2 {
+        width:100%;
+    }
+}

@@ -1,0 +1,284 @@
+.community-page {
+    display: flex;
+ height: 300px;
+    border-radius: 8px;
+    color: white;
+}
+
+.community-page-banner h1{
+text-align: center;
+ margin-bottom: 30px;
+ color: #002539;
+ font-size: 38px;
+ font-weight: 700;
+}
+
+.community-page-banner h2{
+
+     margin-bottom: 15px;
+
+     font-size: 40px;
+     font-weight: 600;
+    }
+
+.community-page-text {
+    width: 50%;
+    padding: 3rem 4rem;
+}
+.community-page-img {
+    width: 50%;
+
+}
+
+
+.community-page-text h2 {
+
+ color: #666666;
+ font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+
+}
+
+.community-page-text h2 > span {
+    font-size: 32px;
+    
+    font-weight: 700;
+   
+   }
+
+   .community-page-text p {
+    margin-bottom: 60px;
+  color:  #666666;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+   }
+
+
+   .community-page-img img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+
+.card {
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 8px;
+display: flex;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.card-text {
+    width: 50%;
+    padding: 2.5rem;
+}
+.card-text span {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 33px;
+color: #666666;
+}
+
+.card-text h3 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+color: #2B495A;
+}
+
+.card-text p {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+color: #666666;
+}
+
+.card-text a {
+    text-align: end;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+
+
+letter-spacing: 0.46px;
+
+color: #2B495A;
+}
+
+.card-img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.card-img img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+}
+
+
+
+
+
+
+
+ 
+@media screen and (max-width:800px) {
+
+    .community-page {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .community-page-text {
+        width: 100%;
+        padding: .5rem;
+        text-align: center;
+    }
+    .community-page-text p {
+        margin-bottom: 30px;
+    }
+    .community-page a {
+        margin: auto;
+    }
+    .community-page-img {
+        width: 100%;
+    }
+    .community-page-img img {
+        max-width: 100%;
+    }
+
+    .card-text {
+        width: 100%;
+    }
+    .card {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .card-img img {
+        object-fit: contain;
+        height: 100%;
+        max-width: 100%;
+        border-radius: 16px ;
+        padding: 0.5rem;
+    }
+}
+
+/* section The Regional Food Bank of Oklahoma */
+
+.regional-food_bank-banner {
+    background-color: #F5F5F5;
+    padding-top: 91px;
+}
+
+.regional-food_bank {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.regional-food_bank-text {
+    width: 60%;
+    padding: 4rem;
+}
+
+.regional-food_bank-banner h2 {
+    text-align: center;
+    color: #002539;
+    font-size: 32px;
+    font-weight: 700;
+}
+.title-column-left {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #666666;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+.description-column-left {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666666;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 40px;
+}
+.regional-food_bank-link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: 0.46px;
+text-transform: uppercase;
+color: black;
+}
+
+.regional-food_bank-img {
+    width: 40%;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.regional-food_bank-img img {
+    width: 311px;
+    height: 340px;
+}
+
+@media screen and (max-width:800px) {
+    .regional-food_bank {
+        flex-wrap: wrap;
+    }
+    .regional-food_bank-img {
+        width: 100%;
+        padding: 2rem;
+    } 
+    .regional-food_bank-text {
+        width: 100%;
+        padding: 2rem;
+    }
+      .title-column-left {
+        font-size: 24px;
+    } 
+}
+/* section The Regional Food Bank of Oklahoma */
