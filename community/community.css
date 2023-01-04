@@ -196,7 +196,7 @@ color: #2B495A;
 
 .regional-food_bank-banner {
     background-color: #F5F5F5;
-    padding-top: 91px;
+    padding: 4rem;
 }
 
 .regional-food_bank {
@@ -264,8 +264,28 @@ color: black;
     width: 311px;
     height: 340px;
 }
+.box-donate-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.box-donate-button .donate-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7.86441px 0px;
+    width: 240px;
+    height: 57.46px;
+    background: #2B495A;
+    border-radius: 3.9322px;
+}
 
 @media screen and (max-width:800px) {
+    .regional-food_bank-banner {
+        padding: 4rem 1rem;
+    }
     .regional-food_bank {
         flex-wrap: wrap;
     }

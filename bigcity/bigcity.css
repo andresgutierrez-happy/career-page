@@ -195,6 +195,47 @@ color: black;
 } */
 
 @media (max-width:1100px) {
+    .okcmoa-text {
+        padding: 2rem;
+        width:60%;
+    }
+    .okcmoa-img {
+        width: 40%;    
+    }
+    .aboutokcmoa-img {
+        padding: 2rem;
+    } 
+    .aboutokcmoa-text {
+        padding: 2rem;
+    }
+    .find-position {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+    .art_entertainment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .positions {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 536px;
+    }
+    .position-1,
+    .position-2 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .box-1 {
+        width: 100%;
+    }
     
 }
 

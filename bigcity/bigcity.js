@@ -34,18 +34,3 @@ nextBtn.addEventListener("click", next);
                 images[count].classList.add("active")
             }
 
-/* function imageActive() {
-
-for (let i = 0 ; i < images.length ; i++ ) {
-   if (images[i].classList.contains("active")) {
-    images[i].classList.remove("active")
-   }
-}
-
-
-this.classList.add("active")
-}
-if (e[i].classList.contains("active")){
-    e.classList.remove("active")
-}
-this.classList.add("active") */
