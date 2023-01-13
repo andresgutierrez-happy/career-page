@@ -22,19 +22,11 @@
     color: white;
 }
 
-/* .okcmoa-banner h1{
-    text-align: center;
-     color: #002539;
-     font-size: 38px;
-     font-weight: 700;
-    } */
-
 .okcmoa-banner h2{
-
-     margin-bottom: 15px;
-     font-size: 40px;
-     font-weight: 600;
-    }
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
 
 .okcmoa-text {
     width: 50%;
@@ -46,27 +38,24 @@
 }
 
 .okcmoa-text h2 {
- font-size: 30px;
-margin-bottom: 15px;
- font-weight: 400;
- color: white;
-
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: white;
 }
 
 .okcmoa-text h2 > span {
-    font-size: 32px;
-    
-    font-weight: 700;
-   
-   }
+    font-size: 32px;    
+    font-weight: 700;   
+}
 
-   .okcmoa-text p {
+.okcmoa-text p {
     margin-bottom: 60px;
     color: white;
-   }
+}
 
 
-   .okcmoa-img img {
+.okcmoa-img img {
     max-width: 100%;
     object-fit: cover;
     height: 100%;
@@ -241,18 +230,26 @@ color: black;
 
 @media screen and (max-width:800px) {
 
-     .okcmoa {
+    .okcmoa {
         flex-wrap: wrap;
     }
-   .okcmoa-text {
+    .okcmoa-text {
         width: 100%;
         padding: 2rem;
         text-align: center;
     }
     .okcmoa-img {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
-   .aboutokcmoa {
+    .okcmoa-img img {
+        max-width: 100%;
+        object-fit: cover;
+        height: 100%;
+        border-radius: 0;
+    }
+    .aboutokcmoa {
         flex-wrap: wrap;
     }
     .aboutokcmoa-img {
@@ -263,7 +260,7 @@ color: black;
         width: 100%;
         padding: 2rem;
     }
-      .title-column-left {
+    .title-column-left {
         font-size: 24px;
     } 
     .box-1 {
